@@ -3,3 +3,10 @@ __pycache__/
 models/
 logs/
 .env
+# Model checkpoints and weights (store in MLflow/S3 instead)
+checkpoints/
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.h5
